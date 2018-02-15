@@ -1,0 +1,7 @@
+#Thu Feb 15 03:40:04 PST 2018
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+overridepresentation=true
+org.eclipse.jface.textfont=1|Monospace|12.0|0|GTK|1|;
+eclipse.preferences.version=1
+org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Monospace|12.0|0|GTK|1|;
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont

@@ -1,0 +1,9 @@
+#ifndef BLINK_TO_RADIO_C_H
+#define BLINK_TO_RADIO_C_H
+
+
+enum {
+	TIMER_PERIOD_MILLI = 250
+};
+
+#endif /* BLINK_TO_RADIO_C_H */

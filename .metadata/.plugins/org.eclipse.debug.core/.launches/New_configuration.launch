@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="tinyOS.debug.launch.configurationType">
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="avr-gdb"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=".gdbinit"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.HOST" value="localhost"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.PORT" value="4242"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.REMOTE_TCP" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.breakpointsFullPath" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.commandFactory" value="org.eclipse.cdt.debug.mi.core.standardCommandFactory"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.protocol" value="mi"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="org.eclipse.cdt.debug.mi.core.GDBServerCDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_REGISTER_BOOKKEEPING" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_VARIABLE_BOOKKEEPING" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value=""/>
+<booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="false"/>
+<stringAttribute key="tinyOS.debug.launch.avariceConfiguration.bitrate" value="1000"/>
+<stringAttribute key="tinyOS.debug.launch.avariceConfiguration.fuseBytes" value="ff19c2"/>
+<booleanAttribute key="tinyOS.debug.launch.avariceConfiguration.fuseBytesCheck" value="false"/>
+<booleanAttribute key="tinyOS.debug.launch.avariceConfiguration.ignoreInterrupts" value="true"/>
+<stringAttribute key="tinyOS.debug.launch.avariceConfiguration.jtagDevice" value="/dev/avrjtag"/>
+<stringAttribute key="tinyOS.debug.launch.avariceConfiguration.jtagVersion" value="mkI"/>
+<stringAttribute key="tinyOS.debug.launch.configurationType.prerun.make-option" value=""/>
+<stringAttribute key="tinyOS.debug.launch.currentGdbProxy" value="tinyOS.debug.launch.avariceConfiguration"/>
+<stringAttribute key="tinyOS.debug.launch.currentLaunchPrerun" value="do-nothing"/>
+<stringAttribute key="tinyOS.debug.launch.currentLaunchPrerun.launchConfig.name" value=""/>
+<stringAttribute key="tinyOS.debug.launch.gdbProxyCommand" value="avarice --mkI --jtag /dev/avrjtag --jtag-bitrate 1000KHz :4242 --ignore-intr"/>
+<stringAttribute key="tinyOS.debug.launch.gdbProxyStartupDelay" value="1500"/>
+</launchConfiguration>
